@@ -17,7 +17,6 @@ export default function Home() {
         <div className="w-[90%] h-[100%] flex items-center justify-between">
           <div className="w-[34%] flex h-[34px] items-center justify-evenly text-center">
             <p className="text-sm w-[60%] border-solid border-r-[2px] border-[#676767] roboto-regular">Phone Number: 956 742 455 678</p>
-
             <p className="text-sm w-[45%] roboto-regular">Email:info@ddsgnr.com</p>
           </div>
           <div className="w-[66%] flex h-[34px] items-center justify-end text-center">
@@ -26,10 +25,7 @@ export default function Home() {
               <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
               <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
               <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon> */}
-
-
             </div>
-
           </div>
         </div>
       </div>
@@ -47,7 +43,6 @@ export default function Home() {
           <div className="relative w-[15%] h-[40px]"><Image className="absolute" src={'/images/logo-5.svg'} layout="fill" alt="logo"></Image></div>
           <div className="relative w-[15%] h-[40px]"><Image className="absolute" src={'/images/logo-6.svg'} layout="fill" alt="logo"></Image></div>
         </div>
-
       </div>
       <Explore></Explore>
       <Achievements></Achievements>
@@ -55,7 +50,6 @@ export default function Home() {
       <Team></Team>
       <Testimonials></Testimonials>
       <Footer></Footer>
-
     </div>
   );
 }

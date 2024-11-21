@@ -14,7 +14,7 @@ function Footer() {
         </div>
       </div>
       <div className='w-full h-[44%] bg-white'></div>
-      <div className='w-full h-[12%] bg-white border-[#979797] border-t-[3px] border-solid flex justify-between items-end'>
+      <div className='w-full h-[12%] bg-white border-[#f7f7f7] border-t-[3px] border-solid flex justify-between items-end'>
         <ul className='w-[45%] h-[45%] flex items-center justify-between'>
           <li className='flex items-center justify-center text-[12px] roboto-regular'>2023 Ddsgnr. All right reserved.</li>
           <li className='flex items-center justify-center text-[12px] roboto-regular'>Privacy Policy</li>
