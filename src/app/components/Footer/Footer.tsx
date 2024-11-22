@@ -1,8 +1,9 @@
 import React from 'react'
+import Image from 'next/image'
 
 function Footer() {
   return (
-    <div className='w-full h-[70vh] flex flex-col items-center justify-between bg-[#676767]'>
+    <div className='w-full h-[70vh] flex flex-col items-center justify-between'>
       <div className='w-full h-[16%] bg-white flex items-start justify-between px-[10px] pt-[4px]'>
         <div className='flex flex-col items-start justify-between h-[50%] w-[40%]'>
           <h3 className='roboto-bold text-[18px]'>Subscribe to our newsettler</h3>
@@ -13,13 +14,47 @@ function Footer() {
           <button className='w-[120px] h-[44px] rounded-[5px] border-2 border-black border-solid bg-white flex items-center justify-center py-[12px] px-[24px] roboto-regular text-[16px] text-black'>Subscribe</button>
         </div>
       </div>
-      <div className='w-full h-[44%] bg-white'></div>
+      <div className='w-full h-[48%] flex items-start justify-between bg-white'>
+        <div className='w-[23%] h-[45px] flex flex-col items-start justify-start relative'>
+          <Image className='absolute !w-[60%]' src={'/images/logo.svg'} alt='logo' layout='fill'></Image>
+        </div>
+        <div className='w-[23%] h-full flex flex-col items-start justify-start'>
+          <h4 className='roboto-bold text-[16px] h-[20%]'>Courses</h4>
+          <ul className='w-full flex flex-col items-start h-[73%] justify-between'>
+            <li className='roboto-regular text-[14px]'>Business</li>
+            <li className='roboto-regular text-[14px]'>Development</li>
+            <li className='roboto-regular text-[14px]'>Technology</li>
+            <li className='roboto-regular text-[14px]'>Design</li>
+            <li className='roboto-regular text-[14px]'>Programming</li>
+          </ul>
+        </div>
+        <div className='w-[23%] h-full flex flex-col items-start justify-start'>
+          <h4 className='roboto-bold text-[16px] h-[20%]'>Resourses</h4>
+          <ul className='w-full flex flex-col items-start h-[73%] justify-between'>
+            <li className='roboto-regular text-[14px]'>Career</li>
+            <li className='roboto-regular text-[14px]'>Resume</li>
+            <li className='roboto-regular text-[14px]'>Learning</li>
+            <li className='roboto-regular text-[14px]'>Interview</li>
+            <li className='roboto-regular text-[14px]'>Jobs</li>
+          </ul>
+        </div>
+        <div className='w-[23%] h-full flex flex-col items-start justify-start'>
+          <h4 className='roboto-bold text-[16px] h-[20%]'>About Us</h4>
+          <ul className='w-full flex flex-col items-start h-[73%] justify-between'>
+            <li className='roboto-regular text-[14px]'>Contact</li>
+            <li className='roboto-regular text-[14px]'>Help/Support</li>
+            <li className='roboto-regular text-[14px]'>FAQ</li>
+            <li className='roboto-regular text-[14px]'>Terms And Conditions</li>
+            <li className='roboto-regular text-[14px]'>Partners</li>
+          </ul>
+        </div>
+      </div>
       <div className='w-full h-[12%] bg-white border-[#f7f7f7] border-t-[3px] border-solid flex justify-between items-end'>
-        <ul className='w-[45%] h-[45%] flex items-center justify-between'>
+        <ul className='w-[45%] h-[45%] flex items-center justify-between px-[10px]'>
           <li className='flex items-center justify-center text-[12px] roboto-regular'>2023 Ddsgnr. All right reserved.</li>
-          <li className='flex items-center justify-center text-[12px] roboto-regular'>Privacy Policy</li>
-          <li className='flex items-center justify-center text-[12px] roboto-regular'>Terms of Services</li>
-          <li className='flex items-center justify-center text-[12px] roboto-regular'>Cookies Setting</li>
+          <li className='flex items-center justify-center text-[12px] roboto-regular underline'>Privacy Policy</li>
+          <li className='flex items-center justify-center text-[12px] roboto-regular underline'>Terms of Services</li>
+          <li className='flex items-center justify-center text-[12px] roboto-regular underline'>Cookies Setting</li>
         </ul>
       </div>
     </div>

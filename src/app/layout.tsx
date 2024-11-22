@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
+import {config} from '@fortawesome/fontawesome-svg-core'
+import '@fortawesome/fontawesome-svg-core/style.css';
 import localFont from "next/font/local";
+config.autoAddCss=false;
 import "./globals.css";
 
 const geistSans = localFont({
