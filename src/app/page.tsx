@@ -1,6 +1,6 @@
 import Image from "next/image";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faFacebook, faLinkedin, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faLinkedin, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import Header from './components/Header/Header'
 import Hero from "./components/Hero/Hero";
 import Course from "./components/Course/Course";
@@ -21,10 +21,10 @@ export default function Home() {
           </div>
           <div className="w-[66%] flex h-[34px] items-center justify-end text-center">
             <div className="w-[15%] flex items-center justify-center gap-[14px]">
-              {/* <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+              <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
               <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
               <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
-              <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon> */}
+              <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
             </div>
           </div>
         </div>
