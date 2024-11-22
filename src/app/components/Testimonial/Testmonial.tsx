@@ -1,10 +1,19 @@
 import React from 'react'
 import Image from 'next/image'
+import { FaStar } from "react-icons/fa";
 
 function Testmonial({ image, name, title }: { image: string, name: string, title: string }) {
     return (
         <div className='w-[31%] h-full border-black border-2 border-solid flex flex-col p-[24px] items-center justify-between'>
-            <div className='w-full h-[10%] flex items-start justify-center'></div>
+            <div className='w-full h-[10%] flex items-start justify-start'>
+                <div className='w-[full] h-full flex items-center justify-start gap-[2px]'>
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                </div>
+            </div>
             <div className='w-full h-[80%] flex items-start justify-between flex-col'>
                 <p className='roboto-regular text-[16px]'>&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros element
                     um tristique. Duis cursus, mi quis viverra ornare.&quot; </p>

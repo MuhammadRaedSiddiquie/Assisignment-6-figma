@@ -1,6 +1,4 @@
 import Image from "next/image";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faFacebook, faLinkedin, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { FaFacebook,FaLinkedin,FaInstagram,FaTwitter } from "react-icons/fa";
 import Header from './components/Header/Header'
 import Hero from "./components/Hero/Hero";
@@ -22,14 +20,10 @@ export default function Home() {
           </div>
           <div className="w-[66%] flex h-[34px] items-center justify-end text-center">
             <div className="w-[15%] flex items-center justify-center gap-[14px]">
-              {/* <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-              <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-              <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
-              <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon> */}
-              <FaFacebook />
-              <FaLinkedin />
-              <FaInstagram />
-              <FaTwitter />
+              <FaFacebook className="h-full w-[22px]" />
+              <FaLinkedin className="h-full w-[22px]" />
+              <FaInstagram className="h-full w-[22px]" />
+              <FaTwitter className="h-full w-[22px]" />
 
             </div>
           </div>

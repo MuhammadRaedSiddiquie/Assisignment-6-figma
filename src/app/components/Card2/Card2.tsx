@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faStar} from '@fortawesome/free-solid-svg-icons'
+import { FaStar } from "react-icons/fa";
 
 function Card2({ image, subtitle, title, para }:{ image:string, subtitle:string, title:string, para:string }) {
     return (
@@ -11,7 +10,7 @@ function Card2({ image, subtitle, title, para }:{ image:string, subtitle:string,
                 <div className='w-[95%] flex items-center justify-between'>
                     <h4 className='text-[14px] roboto-bold'>{subtitle}</h4>
                     <div className='flex items-center gap-[2px] justify-center'>
-                        {/* <FontAwesomeIcon className='w-[20px] h-[20px]' icon={faStar}></FontAwesomeIcon> */}
+                        <FaStar />
                         <h4 className='text-[14px] roboto-regular'>5.0</h4></div>
                 </div>
                 <h3 className='text-[24px] roboto-bold '>{title}</h3>

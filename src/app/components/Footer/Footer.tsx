@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import { FaFacebook, FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -56,6 +57,12 @@ function Footer() {
           <li className='flex items-center justify-center text-[12px] roboto-regular underline'>Terms of Services</li>
           <li className='flex items-center justify-center text-[12px] roboto-regular underline'>Cookies Setting</li>
         </ul>
+        <div className='flex w-[10%] h-[45%] justify-between items-end'>
+          <FaFacebook className='h-full w-[18%]' />
+          <FaInstagram className='h-full w-[18%]' />
+          <FaTwitter className='h-full w-[18%]' />
+          <FaLinkedin className='h-full w-[18%]' />
+        </div>
       </div>
     </div>
   )
