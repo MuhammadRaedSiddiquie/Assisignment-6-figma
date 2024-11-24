@@ -31,7 +31,7 @@ function Testimonials() {
           <div className='w-[7%] h-full flex items-center justify-between max-md:w-fit max-md:gap-[3px]'>
             <span className='w-[10px] h-[10px] rounded-[50%] bg-[#676767]'></span><span className='w-[10px] h-[10px] rounded-[50%] bg-[#c4c4c4]'></span><span className='w-[10px] h-[10px] rounded-[50%] bg-[#c4c4c4]'></span><span className='w-[10px] h-[10px] rounded-[50%] bg-[#c4c4c4]'></span><span className='w-[10px] h-[10px] rounded-[50%] bg-[#c4c4c4]'></span>
           </div>
-          <div className='w-[10%] h-full flex items-center justify-between max-md:w-fit'>
+          <div className='w-[10%] h-full flex items-center justify-between max-md:w-fit max-md:gap-[6px]'>
             <div className='w-[50px] h-[50px] rounded-[50%] border-2 border-black border-solid flex items-center justify-center'><FaArrowLeft /></div>
             <div className='w-[50px] h-[50px] rounded-[50%] border-2 border-black border-solid flex items-center justify-center'><FaArrowRight /></div>
           </div>
