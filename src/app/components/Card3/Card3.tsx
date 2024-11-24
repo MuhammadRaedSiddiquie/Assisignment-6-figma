@@ -4,7 +4,7 @@ import { FaDribbble,FaLinkedin,FaTwitter } from "react-icons/fa";
 
 function Card3({image,title,subtitle}:{image:string,title:string,subtitle:string}) {
   return (
-    <div className='w-[31%] h-full bg-[#ffffff] flex flex-col items-center justify-between py-[5px]'>
+    <div className='w-[31%] h-full bg-[#ffffff] flex flex-col items-center justify-between py-[5px] max-md:h-[210px] max-md:w-[90%] max-md:bg-[#f7f7f7]'>
         <div className='relative w-[80px] h-[80px]'>
             <Image className='absolute' src={image} alt={title} layout='fill'></Image>
         </div>

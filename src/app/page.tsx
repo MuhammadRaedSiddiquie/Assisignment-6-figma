@@ -12,7 +12,7 @@ import Footer from "./components/Footer/Footer";
 export default function Home() {
   return (
     <div>
-      <div className="w-full h-[54px] bg-[#F7F7F7] mb-[15px] flex items-center justify-center border-black border-solid border-b-[1px]">
+      <div className="w-full h-[54px] bg-[#F7F7F7] mb-[15px] flex items-center justify-center border-black border-solid border-b-[1px] max-md:hidden">
         <div className="w-[90%] h-[100%] flex items-center justify-between">
           <div className="w-[34%] flex h-[34px] items-center justify-evenly text-center">
             <p className="text-sm w-[60%] border-solid border-r-[2px] border-[#676767] roboto-regular">Phone Number: 956 742 455 678</p>
@@ -31,17 +31,17 @@ export default function Home() {
       </div>
       <Header></Header>
       <Hero></Hero>
-      <div className="w-full h-[228px] bg-[#f7f7f7] flex items-center justify-between px-4">
-        <div className="w-[25%]">
-          <h2 className="text-[24px] roboto-bold">Trusted by 2000+ companies worldwide.</h2>
+      <div className="w-full h-[228px] bg-[#f7f7f7] flex items-center justify-between px-4 max-md:bg-white max-md:h-[240px] max-md:justify-center max-md:items-start max-md:px-[24px] max-md:py-[48px] max-md:flex-col">
+        <div className="w-[25%] max-md:w-[90%]">
+          <h2 className="text-2xl roboto-bold max-md:text-[18px]">Trusted by 2000+ companies worldwide.</h2>
         </div>
-        <div className="w-[70%] flex items-center justify-evenly">
-          <div className="relative w-[15%] h-[40px]"><Image className="absolute" src={'/images/logo-1.svg'} layout="fill" alt="logo"></Image></div>
-          <div className="relative w-[15%] h-[40px]"><Image className="absolute" src={'/images/logo-2.svg'} layout="fill" alt="logo"></Image></div>
-          <div className="relative w-[15%] h-[40px]"><Image className="absolute" src={'/images/logo-3.svg'} layout="fill" alt="logo"></Image></div>
-          <div className="relative w-[15%] h-[40px]"><Image className="absolute" src={'/images/logo-4.svg'} layout="fill" alt="logo"></Image></div>
-          <div className="relative w-[15%] h-[40px]"><Image className="absolute" src={'/images/logo-5.svg'} layout="fill" alt="logo"></Image></div>
-          <div className="relative w-[15%] h-[40px]"><Image className="absolute" src={'/images/logo-6.svg'} layout="fill" alt="logo"></Image></div>
+        <div className="w-[70%] flex items-center justify-evenly max-md:w-[700px] max-md:h-[70px]">
+          <div className="relative w-[15%] h-[40px] max-md:w-[18%]"><Image className="absolute" src={'/images/logo-2.svg'} layout="fill" alt="logo"></Image></div>
+          <div className="relative w-[15%] h-[40px] max-md:w-[18%]"><Image className="absolute" src={'/images/logo-3.svg'} layout="fill" alt="logo"></Image></div>
+          <div className="relative w-[15%] h-[40px] max-md:w-[18%]"><Image className="absolute" src={'/images/logo-4.svg'} layout="fill" alt="logo"></Image></div>
+          <div className="relative w-[15%] h-[40px] max-md:w-[18%]"><Image className="absolute" src={'/images/logo-5.svg'} layout="fill" alt="logo"></Image></div>
+          <div className="relative w-[15%] h-[40px] max-md:w-[18%]"><Image className="absolute" src={'/images/logo-1.svg'} layout="fill" alt="logo"></Image></div>
+          <div className="relative w-[15%] h-[40px] max-md:w-[18%]"><Image className="absolute" src={'/images/logo-6.svg'} layout="fill" alt="logo"></Image></div>
         </div>
       </div>
       <Explore></Explore>

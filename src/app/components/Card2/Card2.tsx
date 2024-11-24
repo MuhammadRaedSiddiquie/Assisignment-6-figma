@@ -4,8 +4,8 @@ import { FaStar } from "react-icons/fa";
 
 function Card2({ image, subtitle, title, para }:{ image:string, subtitle:string, title:string, para:string }) {
     return (
-        <div className='w-[31%] h-full flex flex-col items-center bg-[#f7f7f7]'>
-            <div className='w-full h-[55%] relative'><Image className='absolute' src={image} layout='fill' alt={title}></Image></div>
+        <div className='w-[31%] h-full flex flex-col items-center bg-[#f7f7f7] max-md:w-[95%] max-md:h-[480px]'>
+            <div className='w-full h-[55%] relative max-md:h-[50%]'><Image className='absolute' src={image} layout='fill' alt={title}></Image></div>
             <div className='w-[95%] h-[45%] flex flex-col items-start justify-evenly px-[16px] p-b-[24px]'>
                 <div className='w-[95%] flex items-center justify-between'>
                     <h4 className='text-[14px] roboto-bold'>{subtitle}</h4>
