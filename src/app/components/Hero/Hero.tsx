@@ -16,7 +16,7 @@ function Hero() {
         </div>
       </div>
       <div className='w-[50%] h-[100%] relative max-md:w-full'>
-        <Image className='absolute max-md:!h-[110%]' src={'/images/Image.svg'} layout='fill' alt='image'></Image>
+        <Image className='absolute' src={'/images/Image.svg'} layout='fill' alt='image'></Image>
       </div>
     </section>
   )

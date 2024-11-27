@@ -16,8 +16,8 @@ function Footer() {
         </div>
       </div>
       <div className='w-full h-[48%] flex items-start justify-between bg-white max-md:flex-col max-md:items-center'>
-        <div className='w-[23%] h-[45px] flex flex-col items-start justify-start relative max-md:w-[90%] max-md:items-center max-md:justify-center max-md:'>
-          <Image className='absolute !w-[60%]' src={'/images/logo.svg'} alt='logo' layout='fill'></Image>
+        <div className='w-[23%] h-[45px] flex flex-col items-start justify-start relative max-md:my-4 max-md:w-[90%] max-md:items-center max-md:justify-center max-md:'>
+          <Image className='absolute w-[60%]' src={'/images/logo.svg'} alt='logo' layout='fill'></Image>
         </div>
         <div className='w-[23%] h-full flex flex-col items-start justify-start max-md:h-fit max-md:items-center max-md:w-[80%] max-md:py-[10px]'>
           <h4 className='roboto-bold text-[16px] h-[20%] text-black'>Courses</h4>

@@ -4,8 +4,8 @@ import Card3 from '../Card3/Card3'
 
 function Team() {
   return (
-    <div className='bg-[#f7f7f7] w-full h-[130vh] flex flex-col items-center justify-between py-[80px] max-md:h-fit max-md:py-[36px] max-md:gap-[48px]'>
-      <div className='flex flex-col w-[66%] h-[16%] items-center justify-between max-md:w-[95%] max-md:text-center'>
+    <div className='bg-[#f7f7f7] w-full h-[130vh] flex flex-col items-center justify-center gap-[80px] py-[80px] max-md:h-fit max-md:py-[36px] max-md:gap-[48px] xl:h-[123vh] xxl:h-[115vh]'>
+      <div className='flex flex-col w-[66%] h-[16%] items-center justify-center gap-[16px] max-md:w-[95%] max-md:text-center'>
         <h1 className='roboto-bold text-[48px] text-black max-md:text-[32px]'>Our Team</h1>
         <p className='roboto-regular text-[18px] text-black'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
       </div>
