@@ -31,9 +31,9 @@ export default function Home() {
       </div>
       <Header></Header>
       <Hero></Hero>
-      <div className="w-full h-[228px] bg-[#f7f7f7] flex items-center justify-between px-4 max-md:bg-white max-md:h-[240px] max-md:justify-center max-md:items-start max-md:px-[24px] max-md:py-[48px] max-md:flex-col">
+      <div className="w-full h-[228px] bg-[#f7f7f7] flex items-center justify-between px-4 max-md:overflow-hidden max-md:bg-white max-md:h-[240px] max-md:justify-center max-md:items-start max-md:px-[24px] max-md:py-[58px] max-md:flex-col">
         <div className="w-[25%] max-md:w-[90%]">
-          <h2 className="text-2xl roboto-bold max-md:text-[18px]">Trusted by 2000+ companies worldwide.</h2>
+          <h2 className="text-2xl text-black roboto-bold max-md:text-[18px]">Trusted by 2000+ companies worldwide.</h2>
         </div>
         <div className="w-[70%] flex items-center justify-evenly max-md:w-[700px] max-md:h-[70px]">
           <div className="relative w-[15%] h-[40px] max-md:w-[18%]"><Image className="absolute" src={'/images/logo-2.svg'} layout="fill" alt="logo"></Image></div>

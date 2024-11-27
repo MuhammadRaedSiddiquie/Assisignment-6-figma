@@ -26,7 +26,7 @@ function Header() {
       <div className='w-[90%] h-[80%] hidden items-center justify-between max-md:flex'>
         <div className='w-[30%] h-[100%] relative p-[12px]'><Image className='absolute w-full h-full' src={'/images/logo.svg'} alt='Logo' layout='fill'></Image></div>
         <div className='w-[50px] h-[50px] flex items-center justify-center'>
-          <FaBars />
+          <FaBars className='text-black' />
 
         </div>
       </div>
