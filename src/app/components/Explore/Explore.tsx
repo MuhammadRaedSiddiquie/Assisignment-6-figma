@@ -62,7 +62,7 @@ function Explore() {
           </Card>
         </div>
         <div className='w-full h-[20%] flex items-center justify-center max-md:h-[10%]'>
-          <button className='w-[150px] h-[50px] px-[12px] py-[24px] rounded-[5px] border-black border-2 roboto-regular text-black text-[16px] flex items-center justify-center'>View All Courses</button>
+          <button className='w-[150px] h-[50px] px-[12px] py-[24px] rounded-[5px] border-black border-2 roboto-regular text-black text-[16px] flex items-center justify-center hover:bg-black hover:text-white duration-[500ms]'>View All Courses</button>
         </div>
 
       </div>

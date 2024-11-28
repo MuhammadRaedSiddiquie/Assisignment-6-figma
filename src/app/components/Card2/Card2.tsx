@@ -10,13 +10,13 @@ function Card2({ image, subtitle, title, para }:{ image:string, subtitle:string,
                 <div className='w-[95%] flex items-center justify-between'>
                     <h4 className='text-[14px] roboto-bold text-black'>{subtitle}</h4>
                     <div className='flex items-center gap-[2px] justify-center'>
-                        <FaStar className='text-black' />
+                        <FaStar className='text-black hover:text-[#ffc107]'  />
                         <h4 className='text-[14px] roboto-regular text-black'>5.0</h4></div>
                 </div>
                 <h3 className='text-[24px] roboto-bold text-black'>{title}</h3>
                 <p className='text-[16px] roboto-regular text-black'>{para}</p>
             <div>
-                <button className='w-[120px] h-[40px] rounded-[5px] flex items-center justify-center border-solid border-2 border-black px-[20px] py-[8px] text-[16px] text-black max-md:w-[126px]'>Enroll Now</button>
+                <button className='w-[120px] h-[40px] rounded-[5px] flex items-center justify-center border-solid border-2 border-black px-[20px] py-[8px] text-[16px] text-black hover:bg-black hover:text-white duration-[500ms] max-md:w-[126px]'>Enroll Now</button>
             </div>
             </div>
 

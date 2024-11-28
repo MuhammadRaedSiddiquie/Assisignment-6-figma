@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaFacebook,FaLinkedin,FaInstagram,FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
 import Header from './components/Header/Header'
 import Hero from "./components/Hero/Hero";
 import Course from "./components/Course/Course";
@@ -35,13 +35,14 @@ export default function Home() {
         <div className="w-[25%] max-md:w-[90%]">
           <h2 className="text-2xl text-black roboto-bold max-md:text-[18px]">Trusted by 2000+ companies worldwide.</h2>
         </div>
-        <div className="w-[70%] flex items-center justify-evenly max-md:w-[700px] max-md:h-[70px]">
-          <div className="relative w-[15%] h-[40px] max-md:w-[18%]"><Image className="absolute" src={'/images/logo-2.svg'} layout="fill" alt="logo"></Image></div>
-          <div className="relative w-[15%] h-[40px] max-md:w-[18%]"><Image className="absolute" src={'/images/logo-3.svg'} layout="fill" alt="logo"></Image></div>
-          <div className="relative w-[15%] h-[40px] max-md:w-[18%]"><Image className="absolute" src={'/images/logo-4.svg'} layout="fill" alt="logo"></Image></div>
-          <div className="relative w-[15%] h-[40px] max-md:w-[18%]"><Image className="absolute" src={'/images/logo-5.svg'} layout="fill" alt="logo"></Image></div>
-          <div className="relative w-[15%] h-[40px] max-md:w-[18%]"><Image className="absolute" src={'/images/logo-1.svg'} layout="fill" alt="logo"></Image></div>
-          <div className="relative w-[15%] h-[40px] max-md:w-[18%]"><Image className="absolute" src={'/images/logo-6.svg'} layout="fill" alt="logo"></Image></div>
+        <div className="w-[70%] flex items-center justify-center max-md:w-[700px] max-md:h-[70px] ">
+          <div className="w-full h-full flex items-center justify-evenly">
+            <div className="relative w-[15%] h-[40px] marque max-md:w-[18%]"><Image className="absolute" src={'/images/logo-2.svg'} layout="fill" alt="logo"></Image></div>
+            <div className="relative w-[15%] h-[40px] marque max-md:w-[18%]"><Image className="absolute" src={'/images/logo-3.svg'} layout="fill" alt="logo"></Image></div>
+            <div className="relative w-[15%] h-[40px] marque max-md:w-[18%]"><Image className="absolute" src={'/images/logo-4.svg'} layout="fill" alt="logo"></Image></div>
+            <div className="relative w-[15%] h-[40px] marque max-md:w-[18%]"><Image className="absolute" src={'/images/logo-5.svg'} layout="fill" alt="logo"></Image></div>
+            <div className="relative w-[15%] h-[40px] marque max-md:w-[18%]"><Image className="absolute" src={'/images/logo-1.svg'} layout="fill" alt="logo"></Image></div>
+            <div className="relative w-[15%] h-[40px] marque max-md:w-[18%]"><Image className="absolute" src={'/images/logo-6.svg'} layout="fill" alt="logo"></Image></div></div>
         </div>
       </div>
       <Explore></Explore>

@@ -41,7 +41,7 @@ function Team() {
 
         </div>
       </div>
-      <button className='w-[150px] h-[40px] px-[8px] py-[16px] rounded-[5px] border-black border-2 roboto-regular text-black text-[16px] flex items-center justify-center'>View All Courses</button>
+      <button className='w-[150px] h-[40px] px-[8px] py-[16px] rounded-[5px] border-black border-2 roboto-regular text-black text-[16px] flex items-center justify-center hover:bg-black hover:text-white duration-[500ms]'>View All Courses</button>
 
     </div>
   )
