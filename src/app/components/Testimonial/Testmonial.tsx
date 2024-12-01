@@ -4,7 +4,7 @@ import { FaStar } from "react-icons/fa";
 
 function Testmonial({ image, name, title }: { image: string, name: string, title: string }) {
     return (
-        <div className='w-[31%] h-full border-black border-2 border-solid flex flex-col p-[24px] items-center justify-between max-md:gap-[15px] max-md:w-full'>
+        <div className='w-[31%] h-full border-black border-2 border-solid flex flex-col p-[24px] items-center justify-center max-md:gap-[15px] max-md:w-full'>
             <div className='w-full h-[10%] flex items-start justify-start'>
                 <div className='w-[full] h-full flex items-center justify-start gap-[2px]'>
                 <FaStar className='text-black' />

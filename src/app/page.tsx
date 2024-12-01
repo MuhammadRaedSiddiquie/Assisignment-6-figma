@@ -8,6 +8,7 @@ import Explore from "./components/Explore/Explore";
 import Team from "./components/Team/Team";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Footer from "./components/Footer/Footer";
+import Test from "./components/Test/Test";
 
 export default function Home() {
   return (
@@ -49,7 +50,8 @@ export default function Home() {
       <Achievements></Achievements>
       <Course></Course>
       <Team></Team>
-      <Testimonials></Testimonials>
+      {/* <Testimonials></Testimonials> */}
+      <Test></Test>
       <Footer></Footer>
     </div>
   );

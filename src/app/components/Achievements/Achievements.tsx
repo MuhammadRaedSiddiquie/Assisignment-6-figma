@@ -1,5 +1,5 @@
 import React from 'react'
-import { useRef } from 'react'
+// import { useRef } from 'react'
 
 function Achievements() {
   // const numRef = useRef < HTMLDivElement | null > (null);
@@ -23,7 +23,7 @@ function Achievements() {
         </div>
         <ul className='w-full h-[100px] flex justify-between items-center max-md:flex-wrap'>
           <li className='w-[23%] h-full flex flex-col items-center max-md:w-[50%]'>
-            <h3 ref={numRef} className='text-[40px] roboto-bold text-black max-md:text-[24px]'>+200</h3>
+            <h3 className='text-[40px] roboto-bold text-black max-md:text-[24px]'>+200</h3>
             <p className='text-base roboto-regular text-black'>Course</p>
           </li>
           <li className='w-[23%] h-full flex flex-col items-center max-md:w-[50%]'>
