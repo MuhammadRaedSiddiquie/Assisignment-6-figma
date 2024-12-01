@@ -11,8 +11,8 @@ function Footer() {
           <h4 className='roboto-regular text-[16px] text-black max-md:text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
         </div>
         <div className='w-[34%] h-[50%] flex items-start justify-between max-md:flex-col max-md:w-[100%] max-md:items-center max-md:gap-[16px]'>
-          <input className='w-[300px] h-[44px] border-2 border-solid border-black rounded-[5px] p-[12px] text-[16px] roboto-regular max-md:w-full' placeholder='Enter your email' type="email" name="mail" id="eMail" />
-          <button className='w-[120px] h-[44px] rounded-[5px] border-2 border-black border-solid bg-white flex items-center justify-center py-[12px] px-[24px] roboto-regular text-[16px] text-black hover:bg-black hover:text-white duration-[500ms] max-md:w-full'>Subscribe</button>
+          <input className='w-[300px] h-[44px] border-2 border-solid border-black rounded-[5px] p-[12px] text-[16px] roboto-regular max-md:w-full xl:w-[68%] xxl:w-[75%]' placeholder='Enter your email' type="email" name="mail" id="eMail" />
+          <button className='w-[120px] h-[44px] rounded-[5px] border-2 border-black border-solid bg-white flex items-center justify-center py-[12px] px-[24px] roboto-regular text-[16px] text-black hover:bg-black hover:text-white duration-[500ms] max-md:w-full xl:w-[130px] xxl:w-[150px]'>Subscribe</button>
         </div>
       </div>
       <div className='w-full h-[48%] flex items-start justify-between bg-white max-md:flex-col max-md:items-center'>
